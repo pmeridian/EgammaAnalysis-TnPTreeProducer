@@ -2,12 +2,16 @@ import FWCore.ParameterSet.Config as cms
  
 filesMiniAOD_Preliminary2017 = {
     'mc' :  cms.untracked.vstring(
+        '/store/mc/RunIIFall17MiniAODv2/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/90000/FEB3954C-4942-E811-8A09-008CFAC91A38.root'
 #        '/store/mc/RunIISummer17MiniAOD/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/92X_upgrade2017_realistic_v10_ext1-v1/110000/02CF84A2-6086-E711-A3A1-0CC47A7C3458.root',#92X
-        '/store/mc/RunIIFall17MiniAOD/DY1JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/94X_mc2017_realistic_v10-v1/20000/001C74A0-B4D6-E711-BD4B-FA163EB4F61D.root',#94X
+#        '/store/mc/RunIIFall17MiniAOD/DY1JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/94X_mc2017_realistic_v10-v1/20000/001C74A0-B4D6-E711-BD4B-FA163EB4F61D.root',#94X
         ),
     
     'data' : cms.untracked.vstring( 
-        '/store/data/Run2017B/SingleElectron/MINIAOD/17Nov2017-v1/40000/064D4B85-E9DB-E711-8B34-02163E019D0E.root',
+        '/store/data/Run2017B/SingleElectron/MINIAOD/31Mar2018-v1/60000/52DBAECE-BF37-E811-8F7D-008CFAC8DB40.root',
+        '/store/data/Run2017B/SingleElectron/MINIAOD/31Mar2018-v1/60000/48028769-9E37-E811-9A9E-008CFAC91538.root',
+        '/store/data/Run2017B/SingleElectron/MINIAOD/31Mar2018-v1/60000/3AFCAA5E-9E37-E811-AF1D-008CFAE45314.root'
+        #'/store/data/Run2017B/SingleElectron/MINIAOD/17Nov2017-v1/40000/064D4B85-E9DB-E711-8B34-02163E019D0E.root',
         #        '/store/data/Run2017C/SingleElectron/MINIAOD/PromptReco-v1/000/299/368/00000/08588A8B-836D-E711-8ACF-02163E01A3AC.root',
         #        '/store/data/Run2017B/SingleElectron/MINIAOD/PromptReco-v1/000/297/050/00000/166F7BB0-3C56-E711-BD8B-02163E0145C5.root',     
         )
